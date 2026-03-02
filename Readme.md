@@ -6,9 +6,9 @@ This project is built using the MERN Stack (MongoDB, Express.js, React.js, Node.
 
 The system simplifies healthcare access by allowing patients to schedule doctor appointments online while enabling doctors to manage their schedules efficiently.
 
-----Features
+---- Features
 
-----Patient Features
+---- Patient Features
 
 User registration and login
 
@@ -27,7 +27,7 @@ Secure online payment
 View appointment history
 
 
-----Doctor Features
+---- Doctor Features
 
 Doctor login dashboard
 
@@ -41,7 +41,7 @@ Update availability
 
 Track patient bookings
 
-----Admin Features
+---- Admin Features
 
 Admin dashboard
 
@@ -55,8 +55,8 @@ Manage users and doctors
 
 Monitor system activity
 
-----Tech Stack
---Frontend
+---- Tech Stack
+-- Frontend
 
 React.js
 
@@ -66,7 +66,7 @@ JavaScript
 
 HTML & CSS
 
---Backend
+-- Backend
 
 Node.js
 
@@ -76,7 +76,7 @@ Database
 
 MongoDB
 
---Other Tools
+-- Other Tools
 
 REST API
 
@@ -86,14 +86,14 @@ Online Payment Integration
 
 Git & GitHub
 
-----System Architecture
+---- System Architecture
 Frontend (React)
        ↓
 Backend API (Node.js + Express)
        ↓
 Database (MongoDB)
 
-----How It Works
+---- How It Works
 
 Users create an account and log in.
 
@@ -110,7 +110,7 @@ Doctor receives appointment notification.
 Appointment is scheduled successfully.
 
 
-----Future Improvements
+---- Future Improvements
 
 Video consultation
 
