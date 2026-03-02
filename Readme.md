@@ -1,6 +1,8 @@
 DocTicket – Doctor Appointment Booking System
 
-DocTicket is a full-stack Doctor Appointment Booking Web Application that allows patients to find doctors by specialization, book appointments, and make secure online payments. The platform connects patients and doctors through an efficient digital appointment system.
+DocTicket is a full-stack Doctor Appointment Booking Web Application that allows patients to find doctors by specialization, book appointments, and make secure online payments. 
+
+The platform connects patients and doctors through an efficient digital appointment system.
 
 This project is built using the MERN Stack (MongoDB, Express.js, React.js, Node.js) and provides separate dashboards for Patients, Doctors, and Admin.
 
