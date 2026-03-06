@@ -67,14 +67,14 @@
     display:none;
 }
 
-/* SHOW BUTTON ON DESKTOP */
+
 @media (min-width:768px){
     .but{
         display:block;
     }
 }
 
-/* PROFILE IMAGE */
+
 .profile{
     height:40px;
     width:40px;
