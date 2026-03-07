@@ -1,0 +1,41 @@
+.specialitycont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9%;
+}
+.text{
+    font-size: 32px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.desc{
+    text-align: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.text2{
+    text-align: center;
+}
+.imgs{
+    width: 75%;
+}
+.speciality-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.speciality-card:hover{
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
