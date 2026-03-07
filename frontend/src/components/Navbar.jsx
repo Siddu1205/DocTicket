@@ -5,6 +5,7 @@ import "../Styles/NavbarStyles.css";
 import profile from "../assets/profile.jpg";
 import dropdown_icon from "../assets/dropdown_icon.svg";
 
+
 const Navbar = () => {
   const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
