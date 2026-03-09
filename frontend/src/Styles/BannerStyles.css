@@ -1,0 +1,132 @@
+/* BANNER CONTAINER */
+
+.bannersec{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#5F6FFF;
+    border-radius:20px;
+    padding:60px 80px;
+    margin-top:80px;
+    gap:40px;
+}
+
+/* TEXT SIDE */
+
+.contentSec{
+    flex:1;
+}
+
+/* TITLE */
+
+.bannerTitle{
+    font-size:48px;
+    font-weight:700;
+    color:white;
+    line-height:1.2;
+}
+
+/* PREVENT SECOND LINE BREAK */
+
+.noWrap{
+    white-space:nowrap;
+}
+
+/* BUTTON */
+
+.btn4{
+    margin-top:30px;
+    padding:12px 30px;
+    background:white;
+    color:black;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+/* IMAGE SIDE */
+
+.imgdiv{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.imgapp{
+    max-height:420px;
+    width:auto;
+}
+
+/* -------- LAPTOP -------- */
+
+@media (max-width:1200px){
+
+.bannerTitle{
+    font-size:40px;
+}
+
+.imgapp{
+    max-height:390px;
+}
+
+}
+
+/* -------- TABLET -------- */
+
+@media (max-width:900px){
+
+.bannersec{
+    padding:40px;
+}
+
+.bannerTitle{
+    font-size:32px;
+}
+
+.imgapp{
+    max-height:280px;
+}
+
+}
+
+/* -------- SMALL TABLET -------- */
+
+@media (max-width:768px){
+
+.bannerTitle{
+    font-size:28px;
+}
+
+.imgapp{
+    max-height:220px;
+}
+
+}
+
+/* -------- MOBILE -------- */
+
+@media (max-width:520px){
+
+.bannersec{
+    flex-direction:column;
+    text-align:center;
+    padding:35px 25px;
+}
+
+.bannerTitle{
+    font-size:24px;
+}
+
+.imgdiv{
+    display:none;
+}
+
+.btn4{
+    font-size:16px;
+    padding:10px 25px;
+}
+
+}
